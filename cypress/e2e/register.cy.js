@@ -1,5 +1,8 @@
+/// <reference types = "cypress" />
+import commonPage from "../support/pages/commonPage"
+
 describe('Register', () => {
-  it('passes', () => {
-    cy.visit('/')
-  })
+  it('Acess page'), () => {
+    commonPage.acessWebsite()
+  }
 })
